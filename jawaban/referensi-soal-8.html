@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>Jawaban Tipe 8 - Formulir HTML</title>
+</head>
+<body>
+  <h1>Jawaban Tipe 8: Formulir HTML</h1>
+  <p>Berikut adalah jawaban dan penjelasannya.</p>
+
+  <h3>1.</h3>
+  <pre>
+&lt;form action="proses.html"&gt;
+&lt;/form&gt;
+  </pre>
+  <p>Formulir harus memiliki atribut <code>action</code> untuk menentukan kemana data dikirim.</p>
+
+  <h3>2.</h3>
+  <pre>
+&lt;input type="text" name="nama"&gt;
+  </pre>
+  <p>Type "text" digunakan untuk kotak teks satu baris.</p>
+
+  <h3>3.</h3>
+  <pre>
+&lt;input type="email" name="email"&gt;
+  </pre>
+  <p>Type "email" akan memeriksa format email yang benar.</p>
+
+  <h3>4.</h3>
+  <pre>
+&lt;button type="submit"&gt;Kirim&lt;/button&gt;
+  </pre>
+  <p>Tombol kirim memiliki <code>type="submit"</code> agar data terkirim.</p>
+
+  <h3>5.</h3>
+  <pre>
+&lt;input type="password" name="password"&gt;
+  </pre>
+  <p>Password akan disembunyikan saat diketik.</p>
+
+  <h3>6.</h3>
+  <pre>
+&lt;textarea name="pesan"&gt;&lt;/textarea&gt;
+  </pre>
+  <p><code>&lt;textarea&gt;</code> digunakan untuk teks panjang atau multi-baris.</p>
+
+  <h3>7.</h3>
+  <pre>
+&lt;input type="radio" name="gender" value="Laki-laki"&gt; Laki-laki
+&lt;input type="radio" name="gender" value="Perempuan"&gt; Perempuan
+  </pre>
+  <p>Radio button digunakan untuk memilih satu opsi.</p>
+
+  <h3>8.</h3>
+  <pre>
+&lt;input type="checkbox" name="hobi" value="Membaca"&gt; Membaca
+&lt;input type="checkbox" name="hobi" value="Olahraga"&gt; Olahraga
+&lt;input type="checkbox" name="hobi" value="Memasak"&gt; Memasak
+  </pre>
+  <p>Checkbox digunakan untuk memilih lebih dari satu opsi.</p>
+
+  <h3>9.</h3>
+  <pre>
+&lt;select name="kota"&gt;
+  &lt;option&gt;Jakarta&lt;/option&gt;
+  &lt;option&gt;Bandung&lt;/option&gt;
+  &lt;option&gt;Surabaya&lt;/option&gt;
+&lt;/select&gt;
+  </pre>
+  <p>Select digunakan untuk membuat menu drop-down.</p>
+
+  <h3>10.</h3>
+  <pre>
+&lt;button type="reset"&gt;Reset&lt;/button&gt;
+  </pre>
+  <p>Reset menghapus semua data yang diisi di form.</p>
+
+  <h3>11.</h3>
+  <pre>
+&lt;input type="number" name="umur"&gt;
+  </pre>
+  <p>Input angka hanya menerima nilai numerik.</p>
+
+  <h3>12.</h3>
+  <pre>
+&lt;input type="date" name="tanggal"&gt;
+  </pre>
+  <p>Input tanggal memunculkan pemilih kalender.</p>
+
+  <h3>13.</h3>
+  <pre>
+&lt;input type="time" name="waktu"&gt;
+  </pre>
+  <p>Input waktu memunculkan pemilih jam/menit.</p>
+
+  <h3>14.</h3>
+  <pre>
+&lt;input type="file" name="dokumen"&gt;
+  </pre>
+  <p>Input file digunakan untuk upload dokumen atau gambar.</p>
+
+  <h3>15.</h3>
+  <pre>
+&lt;form action="proses.html" method="GET"&gt;
+&lt;/form&gt;
+  </pre>
+  <p>Metode GET menampilkan data di URL.</p>
+
+  <h3>16.</h3>
+  <pre>
+&lt;form action="proses.html" method="POST"&gt;
+&lt;/form&gt;
+  </pre>
+  <p>Metode POST menyembunyikan data dari URL.</p>
+
+  <h3>17.</h3>
+  <pre>
+&lt;label for="nama"&gt;Nama:&lt;/label&gt;
+&lt;input type="text" id="nama" name="nama"&gt;
+  </pre>
+  <p>Label membantu menghubungkan teks dengan input.</p>
+
+  <h3>18.</h3>
+  <pre>
+&lt;input type="text" name="nama" placeholder="Masukkan nama"&gt;
+  </pre>
+  <p>Placeholder adalah teks petunjuk di dalam input.</p>
+
+  <h3>19.</h3>
+  <pre>
+&lt;input type="text" name="nama" required&gt;
+  </pre>
+  <p>Required membuat input wajib diisi sebelum form dikirim.</p>
+
+  <h3>20.</h3>
+  <pre>
+&lt;form action="proses.html" method="POST"&gt;
+  Nama: &lt;input type="text" name="nama" placeholder="Masukkan nama" required&gt;&lt;br&gt;
+  Email: &lt;input type="email" name="email" required&gt;&lt;br&gt;
+  Password: &lt;input type="password" name="password" required&gt;&lt;br&gt;
+  Pesan: &lt;textarea name="pesan"&gt;&lt;/textarea&gt;&lt;br&gt;
+  Jenis Kelamin:
+  &lt;input type="radio" name="gender" value="Laki-laki"&gt; Laki-laki
+  &lt;input type="radio" name="gender" value="Perempuan"&gt; Perempuan&lt;br&gt;
+  Hobi:
+  &lt;input type="checkbox" name="hobi" value="Membaca"&gt; Membaca
+  &lt;input type="checkbox" name="hobi" value="Olahraga"&gt; Olahraga
+  &lt;input type="checkbox" name="hobi" value="Memasak"&gt; Memasak&lt;br&gt;
+  Kota:
+  &lt;select name="kota"&gt;
+    &lt;option&gt;Jakarta&lt;/option&gt;
+    &lt;option&gt;Bandung&lt;/option&gt;
+    &lt;option&gt;Surabaya&lt;/option&gt;
+  &lt;/select&gt;&lt;br&gt;
+  Umur: &lt;input type="number" name="umur"&gt;&lt;br&gt;
+  Tanggal: &lt;input type="date" name="tanggal"&gt;&lt;br&gt;
+  Waktu: &lt;input type="time" name="waktu"&gt;&lt;br&gt;
+  Upload: &lt;input type="file" name="dokumen"&gt;&lt;br&gt;
+  &lt;button type="submit"&gt;Kirim&lt;/button&gt;
+  &lt;button type="reset"&gt;Reset&lt;/button&gt;
+&lt;/form&gt;
+  </pre>
+  <p>Form lengkap ini menggabungkan semua elemen yang telah dipelajari.</p>
+
+</body>
+</html>
